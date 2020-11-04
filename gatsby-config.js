@@ -6,10 +6,14 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "K9Obey San Diego",
+    description: "K9Obey: San Diego Dog Training",
+  },
   plugins: [
-    `gatsby-plugin-react-helmet`,//react helmet for a container for site meta data
-    `gatsby-plugin-sharp`,//will be using the sharp plugin for our images
+    `gatsby-plugin-react-helmet`, //react helmet for a container for site meta data
+    `gatsby-plugin-sharp`, //will be using the sharp plugin for our images
     `gatsby-transformer-sharp`,
-    "gatsby-plugin-emotion",//using emotion 
+    "gatsby-plugin-emotion", //using emotion
   ],
 }
