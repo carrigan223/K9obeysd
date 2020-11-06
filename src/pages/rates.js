@@ -1,5 +1,6 @@
 import React from "react"
+import Layout from "../components/layout"
 
-export default function Home() {
-  return <>Hello rates!</>
+export default function Rates() {
+  return <Layout></Layout>
 }

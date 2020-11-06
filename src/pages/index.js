@@ -1,5 +1,13 @@
-import React from "react"
+import React from "react";
+import Header from '../components/header';
+import Layout from '../components/layout';
 
 export default function Home() {
-  return <>Hello world!</>
+  return (
+    <>
+      <Layout>
+        
+      </Layout>
+    </>
+  )
 }
